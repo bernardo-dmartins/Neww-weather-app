@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('particles.js config loaded - callback');
     });
 
-    const apiKey = 'b8984b7cf7919f47d76355b6315cef56'; 
+    const apiKey = ''; // API key
     const todayInfo = document.querySelector('.today-info');
     const todayWeatherIcon = document.querySelector('.today-weather i');
     const todayTemp = document.querySelector('.weather-temp');
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     function fetchWeatherData(location) {
-        const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${apiKey}&units=metric`; 
+        const apiUrl = ``; // API url
 
         fetch(apiUrl).then(response => response.json()).then(data => {
             if (data.cod === '404') {

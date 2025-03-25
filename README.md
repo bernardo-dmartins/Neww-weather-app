@@ -21,5 +21,8 @@
 * Particles.js - Biblioteca para efeitos
 
 
+* Aplicação hospedada: https://weather-app-bdm.netlify.app/
+
+
 
 
